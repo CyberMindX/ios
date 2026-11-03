@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct app2App: App {
-    var body: some Scene {
+    @Environment(\.scenePhase) private var scenePhase
+    var body: some Scene { //Escena
         WindowGroup {
             ContentView()
         }
+        //.onChange(of: ScenePhase, {}<#T##action: () -> Void##() -> Void#>)
     }
 }
