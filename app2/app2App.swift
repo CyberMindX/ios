@@ -14,6 +14,7 @@ struct app2App: App {
         WindowGroup {
             ContentView()
         }
+        print("hello world")
         //.onChange(of: ScenePhase, {}<#T##action: () -> Void##() -> Void#>)
     }
 }
